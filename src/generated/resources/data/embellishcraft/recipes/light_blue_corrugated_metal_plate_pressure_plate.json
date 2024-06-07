@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:light_blue_corrugated_metal_plate"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "embellishcraft:light_blue_corrugated_metal_plate_pressure_plate"
   }

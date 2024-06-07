@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_head",
   "textures": {
     "head": "embellishcraft:block/blue_crimson_fancy_bed_head",
-    "head_side": "embellishcraft:block/blue_crimson_fancy_bed_head_side",
     "head_end": "embellishcraft:block/crimson_fancy_bed_head_end",
-    "under": "minecraft:block/crimson_planks",
-    "particle": "minecraft:block/crimson_planks"
+    "head_side": "embellishcraft:block/blue_crimson_fancy_bed_head_side",
+    "particle": "minecraft:block/crimson_planks",
+    "under": "minecraft:block/crimson_planks"
   }
 }

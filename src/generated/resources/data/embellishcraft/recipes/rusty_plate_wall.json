@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:rusty_plate"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:rusty_plate_wall",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:rusty_plate_wall"
   }
 }

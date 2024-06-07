@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:basalt_tiles"
   },
-  "result": "embellishcraft:basalt_tiles_slab",
-  "count": 2
+  "result": "embellishcraft:basalt_tiles_slab"
 }

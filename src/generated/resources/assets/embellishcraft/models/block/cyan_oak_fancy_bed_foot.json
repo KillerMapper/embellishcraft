@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_foot",
   "textures": {
     "foot": "embellishcraft:block/cyan_oak_fancy_bed_foot",
-    "foot_side": "embellishcraft:block/cyan_oak_fancy_bed_foot_side",
     "foot_end": "embellishcraft:block/oak_fancy_bed_foot_end",
-    "under": "minecraft:block/oak_planks",
-    "particle": "minecraft:block/oak_planks"
+    "foot_side": "embellishcraft:block/cyan_oak_fancy_bed_foot_side",
+    "particle": "minecraft:block/oak_planks",
+    "under": "minecraft:block/oak_planks"
   }
 }

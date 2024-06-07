@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:smooth_andesite_slab"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
     "item": "embellishcraft:andesite_ornament"
   }

@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/granite_paving_stones_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/granite_paving_stones_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/granite_paving_stones"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/granite_paving_stones_slab_top"
     }
   }
 }

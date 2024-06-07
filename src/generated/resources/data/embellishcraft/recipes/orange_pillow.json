@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " S ",
-    "SWS",
-    " S "
-  ],
   "key": {
     "S": {
       "tag": "forge:string"
@@ -13,6 +8,11 @@
       "item": "minecraft:orange_wool"
     }
   },
+  "pattern": [
+    " S ",
+    "SWS",
+    " S "
+  ],
   "result": {
     "item": "embellishcraft:orange_pillow"
   }

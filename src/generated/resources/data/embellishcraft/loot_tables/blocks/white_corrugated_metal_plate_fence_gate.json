@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "white_corrugated_metal_plate_fence_gate",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "embellishcraft:white_corrugated_metal_plate_fence_gate"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "name": "block.embellishcraft.white_corrugated_metal_plate_fence_gate",
+      "rolls": 1.0
     }
   ]
 }

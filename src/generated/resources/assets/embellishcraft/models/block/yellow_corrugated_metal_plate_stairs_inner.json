@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/inner_stairs",
   "textures": {
-    "side": "embellishcraft:block/yellow_corrugated_metal_plate",
     "bottom": "embellishcraft:block/yellow_corrugated_metal_plate",
+    "side": "embellishcraft:block/yellow_corrugated_metal_plate",
     "top": "embellishcraft:block/yellow_corrugated_metal_plate"
   }
 }

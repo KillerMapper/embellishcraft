@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "terrace_tables",
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "item": "minecraft:birch_pressure_plate"
+    }
+  },
   "pattern": [
     "WWW",
     " S ",
     " S "
   ],
-  "key": {
-    "W": {
-      "item": "minecraft:birch_pressure_plate"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
-    }
-  },
   "result": {
     "item": "embellishcraft:birch_terrace_table"
   }

@@ -1,32 +1,34 @@
 {
   "variants": {
-    "facing=north,occupied=false,part=head,waterlogged=false": {
+    "facing=east,occupied=false,part=foot,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
-      "y": 180
+      "y": 270
     },
-    "facing=south,occupied=false,part=head,waterlogged=false": {
-      "model": "embellishcraft:block/gray_pillow"
-    },
-    "facing=west,occupied=false,part=head,waterlogged=false": {
+    "facing=east,occupied=false,part=foot,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow",
-      "y": 90
+      "y": 270
     },
     "facing=east,occupied=false,part=head,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 270
     },
-    "facing=north,occupied=true,part=head,waterlogged=false": {
+    "facing=east,occupied=false,part=head,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow",
-      "y": 180
+      "y": 270
     },
-    "facing=south,occupied=true,part=head,waterlogged=false": {
-      "model": "embellishcraft:block/gray_pillow"
-    },
-    "facing=west,occupied=true,part=head,waterlogged=false": {
+    "facing=east,occupied=true,part=foot,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
-      "y": 90
+      "y": 270
+    },
+    "facing=east,occupied=true,part=foot,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 270
     },
     "facing=east,occupied=true,part=head,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 270
+    },
+    "facing=east,occupied=true,part=head,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 270
     },
@@ -34,91 +36,89 @@
       "model": "embellishcraft:block/gray_pillow",
       "y": 180
     },
+    "facing=north,occupied=false,part=foot,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
+    "facing=north,occupied=false,part=head,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
+    "facing=north,occupied=false,part=head,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
+    "facing=north,occupied=true,part=foot,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
+    "facing=north,occupied=true,part=foot,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
+    "facing=north,occupied=true,part=head,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
+    "facing=north,occupied=true,part=head,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 180
+    },
     "facing=south,occupied=false,part=foot,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=false,part=foot,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=false,part=head,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=false,part=head,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=true,part=foot,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=true,part=foot,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=true,part=head,waterlogged=false": {
+      "model": "embellishcraft:block/gray_pillow"
+    },
+    "facing=south,occupied=true,part=head,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow"
     },
     "facing=west,occupied=false,part=foot,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 90
     },
-    "facing=east,occupied=false,part=foot,waterlogged=false": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 270
-    },
-    "facing=north,occupied=true,part=foot,waterlogged=false": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 180
-    },
-    "facing=south,occupied=true,part=foot,waterlogged=false": {
-      "model": "embellishcraft:block/gray_pillow"
-    },
-    "facing=west,occupied=true,part=foot,waterlogged=false": {
+    "facing=west,occupied=false,part=foot,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 90
     },
-    "facing=east,occupied=true,part=foot,waterlogged=false": {
+    "facing=west,occupied=false,part=head,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
-      "y": 270
-    },
-    "facing=north,occupied=false,part=head,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 180
-    },
-    "facing=south,occupied=false,part=head,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow"
+      "y": 90
     },
     "facing=west,occupied=false,part=head,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 90
     },
-    "facing=east,occupied=false,part=head,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 270
-    },
-    "facing=north,occupied=true,part=head,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 180
-    },
-    "facing=south,occupied=true,part=head,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow"
-    },
-    "facing=west,occupied=true,part=head,waterlogged=true": {
+    "facing=west,occupied=true,part=foot,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 90
-    },
-    "facing=east,occupied=true,part=head,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 270
-    },
-    "facing=north,occupied=false,part=foot,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 180
-    },
-    "facing=south,occupied=false,part=foot,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow"
-    },
-    "facing=west,occupied=false,part=foot,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 90
-    },
-    "facing=east,occupied=false,part=foot,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 270
-    },
-    "facing=north,occupied=true,part=foot,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow",
-      "y": 180
-    },
-    "facing=south,occupied=true,part=foot,waterlogged=true": {
-      "model": "embellishcraft:block/gray_pillow"
     },
     "facing=west,occupied=true,part=foot,waterlogged=true": {
       "model": "embellishcraft:block/gray_pillow",
       "y": 90
     },
-    "facing=east,occupied=true,part=foot,waterlogged=true": {
+    "facing=west,occupied=true,part=head,waterlogged=false": {
       "model": "embellishcraft:block/gray_pillow",
-      "y": 270
+      "y": 90
+    },
+    "facing=west,occupied=true,part=head,waterlogged=true": {
+      "model": "embellishcraft:block/gray_pillow",
+      "y": 90
     }
   }
 }

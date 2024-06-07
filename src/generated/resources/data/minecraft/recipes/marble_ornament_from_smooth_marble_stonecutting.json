@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:smooth_marble"
   },
-  "result": "embellishcraft:marble_ornament",
-  "count": 1
+  "result": "embellishcraft:marble_ornament"
 }

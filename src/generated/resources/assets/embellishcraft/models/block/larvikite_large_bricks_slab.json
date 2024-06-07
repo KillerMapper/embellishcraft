@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "side": "embellishcraft:block/larvikite_large_bricks",
     "bottom": "embellishcraft:block/larvikite_large_bricks",
+    "side": "embellishcraft:block/larvikite_large_bricks",
     "top": "embellishcraft:block/larvikite_large_bricks"
   }
 }

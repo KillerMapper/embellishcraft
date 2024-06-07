@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:diorite_rooftiles"
   },
-  "result": "embellishcraft:diorite_rooftiles_slab",
-  "count": 2
+  "result": "embellishcraft:diorite_rooftiles_slab"
 }

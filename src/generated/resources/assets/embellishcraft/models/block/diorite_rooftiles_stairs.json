@@ -1,9 +1,9 @@
 {
   "parent": "embellishcraft:block/rooftiles_stairs",
   "textures": {
-    "top": "embellishcraft:block/diorite_rooftiles",
     "bottom": "embellishcraft:block/diorite_rooftiles",
+    "particle": "embellishcraft:block/diorite_rooftiles",
     "side": "embellishcraft:block/diorite_rooftiles",
-    "particle": "embellishcraft:block/diorite_rooftiles"
+    "top": "embellishcraft:block/diorite_rooftiles"
   }
 }

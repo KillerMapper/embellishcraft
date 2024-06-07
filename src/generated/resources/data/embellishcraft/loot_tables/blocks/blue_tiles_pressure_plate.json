@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "blue_tiles_pressure_plate",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "embellishcraft:blue_tiles_pressure_plate"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "name": "block.embellishcraft.blue_tiles_pressure_plate",
+      "rolls": 1.0
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "i",
-    "i"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:terracotta_rooftiles_slab"
     }
   },
+  "pattern": [
+    "i",
+    "i"
+  ],
   "result": {
     "item": "embellishcraft:terracotta_rooftiles"
   }

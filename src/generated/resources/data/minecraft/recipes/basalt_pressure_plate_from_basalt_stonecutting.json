@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:basalt"
   },
-  "result": "embellishcraft:basalt_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:basalt_pressure_plate"
 }

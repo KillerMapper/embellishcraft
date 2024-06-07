@@ -1,304 +1,304 @@
 {
   "multipart": [
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_left",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "north",
         "left_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_left",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_right",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "north",
         "right_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_right",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "north",
         "shape": "straight"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "north",
         "shape": "outer_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "north",
         "shape": "inner_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "north",
         "shape": "outer_right"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
-      "when": {
-        "facing": "north",
-        "shape": "inner_right"
-      },
       "apply": {
         "model": "embellishcraft:block/inner_yellow_couch",
         "uvlock": true
+      },
+      "when": {
+        "facing": "north",
+        "shape": "inner_right"
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_left",
+        "uvlock": true
+      },
       "when": {
         "facing": "east",
         "left_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_left",
-        "uvlock": true
       }
     },
     {
-      "when": {
-        "facing": "east",
-        "right_end": "true"
-      },
       "apply": {
         "model": "embellishcraft:block/yellow_couch_right",
         "uvlock": true
+      },
+      "when": {
+        "facing": "east",
+        "right_end": "true"
       }
     },
     {
-      "when": {
-        "facing": "east",
-        "shape": "straight"
-      },
       "apply": {
         "model": "embellishcraft:block/yellow_couch",
         "uvlock": true
+      },
+      "when": {
+        "facing": "east",
+        "shape": "straight"
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "east",
         "shape": "outer_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "y": 270,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true
+      },
       "when": {
         "facing": "east",
         "shape": "inner_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "uvlock": true
       }
     },
     {
-      "when": {
-        "facing": "east",
-        "shape": "outer_right"
-      },
       "apply": {
         "model": "embellishcraft:block/outer_yellow_couch",
         "uvlock": true
+      },
+      "when": {
+        "facing": "east",
+        "shape": "outer_right"
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "east",
         "shape": "inner_right"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_left",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "south",
         "left_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_left",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_right",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "south",
         "right_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_right",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "south",
         "shape": "straight"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true
+      },
       "when": {
         "facing": "south",
         "shape": "outer_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "south",
         "shape": "inner_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "south",
         "shape": "outer_right"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "south",
         "shape": "inner_right"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_left",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "west",
         "left_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_left",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch_right",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "west",
         "right_end": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch_right",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/yellow_couch",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "west",
         "shape": "straight"
-      },
-      "apply": {
-        "model": "embellishcraft:block/yellow_couch",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "facing": "west",
         "shape": "outer_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "west",
         "shape": "inner_left"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/outer_yellow_couch",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "facing": "west",
         "shape": "outer_right"
-      },
-      "apply": {
-        "model": "embellishcraft:block/outer_yellow_couch",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/inner_yellow_couch",
+        "uvlock": true,
+        "y": 270
+      },
       "when": {
         "facing": "west",
         "shape": "inner_right"
-      },
-      "apply": {
-        "model": "embellishcraft:block/inner_yellow_couch",
-        "y": 270,
-        "uvlock": true
       }
     }
   ]

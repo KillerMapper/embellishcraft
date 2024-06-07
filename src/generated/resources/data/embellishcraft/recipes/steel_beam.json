@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "iii"
-  ],
   "key": {
     "i": {
       "tag": "forge:ingots/steel"
     }
   },
+  "pattern": [
+    "iii"
+  ],
   "result": {
-    "item": "embellishcraft:steel_beam",
-    "count": 9
+    "count": 9,
+    "item": "embellishcraft:steel_beam"
   }
 }

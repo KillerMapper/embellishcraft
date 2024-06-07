@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/black"
+    },
+    "i": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "iid",
     "ii "
   ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/steel"
-    },
-    "d": {
-      "tag": "forge:dyes/black"
-    }
-  },
   "result": {
-    "item": "embellishcraft:dark_metal_floor",
-    "count": 8
+    "count": 8,
+    "item": "embellishcraft:dark_metal_floor"
   }
 }

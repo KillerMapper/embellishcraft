@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:polished_paving"
   },
-  "result": "embellishcraft:polished_paving_wall",
-  "count": 1
+  "result": "embellishcraft:polished_paving_wall"
 }

@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:basalt_paving"
     }
   },
+  "pattern": [
+    "##"
+  ],
   "result": {
     "item": "embellishcraft:basalt_paving_pressure_plate"
   }

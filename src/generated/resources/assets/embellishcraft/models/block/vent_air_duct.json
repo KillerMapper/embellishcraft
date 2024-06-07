@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable_vertical",
   "textures": {
-    "side": "embellishcraft:block/air_duct",
-    "front": "embellishcraft:block/vent_air_duct"
+    "front": "embellishcraft:block/vent_air_duct",
+    "side": "embellishcraft:block/air_duct"
   }
 }

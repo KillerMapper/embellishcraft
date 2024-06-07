@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "side": "embellishcraft:block/pink_wallpaper_plinth",
-    "end": "embellishcraft:block/side_wallpaper"
+    "end": "embellishcraft:block/side_wallpaper",
+    "side": "embellishcraft:block/pink_wallpaper_plinth"
   }
 }

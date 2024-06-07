@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:smooth_basalt_slab"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
-    "item": "embellishcraft:basalt_ornament",
-    "count": 2
+    "count": 2,
+    "item": "embellishcraft:basalt_ornament"
   }
 }

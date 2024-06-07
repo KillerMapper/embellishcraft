@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_foot",
   "textures": {
     "foot": "embellishcraft:block/black_warped_fancy_bed_foot",
-    "foot_side": "embellishcraft:block/black_warped_fancy_bed_foot_side",
     "foot_end": "embellishcraft:block/warped_fancy_bed_foot_end",
-    "under": "minecraft:block/warped_planks",
-    "particle": "minecraft:block/warped_planks"
+    "foot_side": "embellishcraft:block/black_warped_fancy_bed_foot_side",
+    "particle": "minecraft:block/warped_planks",
+    "under": "minecraft:block/warped_planks"
   }
 }

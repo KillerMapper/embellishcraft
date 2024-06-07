@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:light_metal_floor"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:light_metal_floor_stairs",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:light_metal_floor_stairs"
   }
 }

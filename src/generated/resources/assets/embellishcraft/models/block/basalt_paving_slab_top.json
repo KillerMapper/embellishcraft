@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "side": "embellishcraft:block/basalt_paving",
     "bottom": "embellishcraft:block/basalt_paving",
+    "side": "embellishcraft:block/basalt_paving",
     "top": "embellishcraft:block/basalt_paving"
   }
 }

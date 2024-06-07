@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_head",
   "textures": {
     "head": "embellishcraft:block/orange_dark_oak_fancy_bed_head",
-    "head_side": "embellishcraft:block/orange_dark_oak_fancy_bed_head_side",
     "head_end": "embellishcraft:block/dark_oak_fancy_bed_head_end",
-    "under": "minecraft:block/dark_oak_planks",
-    "particle": "minecraft:block/dark_oak_planks"
+    "head_side": "embellishcraft:block/orange_dark_oak_fancy_bed_head_side",
+    "particle": "minecraft:block/dark_oak_planks",
+    "under": "minecraft:block/dark_oak_planks"
   }
 }

@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "side": "embellishcraft:block/marble_cobblestone",
     "bottom": "embellishcraft:block/marble_cobblestone",
+    "side": "embellishcraft:block/marble_cobblestone",
     "top": "embellishcraft:block/marble_cobblestone"
   }
 }

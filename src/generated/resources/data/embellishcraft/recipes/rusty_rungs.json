@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "b": {
+      "item": "minecraft:water_bucket"
+    },
+    "l": {
+      "item": "embellishcraft:steel_rungs"
+    }
+  },
   "pattern": [
     "lll",
     "lbl",
     "lll"
   ],
-  "key": {
-    "l": {
-      "item": "embellishcraft:steel_rungs"
-    },
-    "b": {
-      "item": "minecraft:water_bucket"
-    }
-  },
   "result": {
-    "item": "embellishcraft:rusty_rungs",
-    "count": 8
+    "count": 8,
+    "item": "embellishcraft:rusty_rungs"
   }
 }

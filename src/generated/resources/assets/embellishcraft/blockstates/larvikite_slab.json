@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/larvikite_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/larvikite_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/larvikite"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/larvikite_slab_top"
     }
   }
 }

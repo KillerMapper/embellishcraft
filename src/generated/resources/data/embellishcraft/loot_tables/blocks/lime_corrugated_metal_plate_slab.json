@@ -2,26 +2,24 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "lime_corrugated_metal_plate_slab",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
           "type": "minecraft:item",
           "functions": [
             {
-              "function": "minecraft:set_count",
+              "add": false,
               "conditions": [
                 {
-                  "condition": "minecraft:block_state_property",
                   "block": "embellishcraft:lime_corrugated_metal_plate_slab",
+                  "condition": "minecraft:block_state_property",
                   "properties": {
                     "type": "double"
                   }
                 }
               ],
               "count": 2.0,
-              "add": false
+              "function": "minecraft:set_count"
             },
             {
               "function": "minecraft:explosion_decay"
@@ -29,7 +27,9 @@
           ],
           "name": "embellishcraft:lime_corrugated_metal_plate_slab"
         }
-      ]
+      ],
+      "name": "block.embellishcraft.lime_corrugated_metal_plate_slab",
+      "rolls": 1.0
     }
   ]
 }

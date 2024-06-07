@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "side": "embellishcraft:block/gneiss_large_bricks",
     "bottom": "embellishcraft:block/gneiss_large_bricks",
+    "side": "embellishcraft:block/gneiss_large_bricks",
     "top": "embellishcraft:block/gneiss_large_bricks"
   }
 }

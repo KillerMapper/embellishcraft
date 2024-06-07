@@ -1,15 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "iii"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:sandstone_paving"
     }
   },
+  "pattern": [
+    "iii"
+  ],
   "result": {
-    "item": "embellishcraft:sandstone_paving_slab",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:sandstone_paving_slab"
   }
 }

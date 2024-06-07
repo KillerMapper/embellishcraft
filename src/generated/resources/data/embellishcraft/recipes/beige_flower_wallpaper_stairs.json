@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:beige_flower_wallpaper"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:beige_flower_wallpaper_stairs",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:beige_flower_wallpaper_stairs"
   }
 }

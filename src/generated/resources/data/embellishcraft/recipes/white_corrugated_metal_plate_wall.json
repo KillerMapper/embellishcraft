@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:white_corrugated_metal_plate"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:white_corrugated_metal_plate_wall",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:white_corrugated_metal_plate_wall"
   }
 }

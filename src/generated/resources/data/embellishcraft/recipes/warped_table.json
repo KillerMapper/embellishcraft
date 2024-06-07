@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "tables",
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "item": "minecraft:warped_slab"
+    }
+  },
   "pattern": [
     "SWS",
     "S S",
     "S S"
   ],
-  "key": {
-    "W": {
-      "item": "minecraft:warped_slab"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
-    }
-  },
   "result": {
     "item": "embellishcraft:warped_table"
   }

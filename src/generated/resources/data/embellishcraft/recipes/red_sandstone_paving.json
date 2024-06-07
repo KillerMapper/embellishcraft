@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:polished_red_sandstone"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:red_sandstone_paving",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:red_sandstone_paving"
   }
 }

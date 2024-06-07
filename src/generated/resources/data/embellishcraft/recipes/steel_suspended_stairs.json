@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "  P",
-    " PS",
-    "PS "
-  ],
   "key": {
     "P": {
       "tag": "forge:plates/steel"
@@ -13,8 +8,13 @@
       "tag": "forge:rods/steel"
     }
   },
+  "pattern": [
+    "  P",
+    " PS",
+    "PS "
+  ],
   "result": {
-    "item": "embellishcraft:steel_suspended_stairs",
-    "count": 8
+    "count": 8,
+    "item": "embellishcraft:steel_suspended_stairs"
   }
 }

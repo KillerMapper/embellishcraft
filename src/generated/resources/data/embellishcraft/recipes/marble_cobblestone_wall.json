@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:marble_cobblestone"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:marble_cobblestone_wall",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:marble_cobblestone_wall"
   }
 }

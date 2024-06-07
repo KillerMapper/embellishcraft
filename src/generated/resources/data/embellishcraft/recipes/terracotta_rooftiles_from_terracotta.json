@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "minecraft:terracotta"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
-    "item": "embellishcraft:terracotta_rooftiles",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:terracotta_rooftiles"
   }
 }

@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_head",
   "textures": {
     "head": "embellishcraft:block/cyan_birch_fancy_bed_head",
-    "head_side": "embellishcraft:block/cyan_birch_fancy_bed_head_side",
     "head_end": "embellishcraft:block/birch_fancy_bed_head_end",
-    "under": "minecraft:block/birch_planks",
-    "particle": "minecraft:block/birch_planks"
+    "head_side": "embellishcraft:block/cyan_birch_fancy_bed_head_side",
+    "particle": "minecraft:block/birch_planks",
+    "under": "minecraft:block/birch_planks"
   }
 }

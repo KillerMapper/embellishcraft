@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:polished_gneiss"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:polished_gneiss_wall",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:polished_gneiss_wall"
   }
 }

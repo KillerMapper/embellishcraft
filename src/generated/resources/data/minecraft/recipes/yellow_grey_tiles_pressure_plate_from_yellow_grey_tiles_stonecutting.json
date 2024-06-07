@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:yellow_grey_tiles"
   },
-  "result": "embellishcraft:yellow_grey_tiles_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:yellow_grey_tiles_pressure_plate"
 }

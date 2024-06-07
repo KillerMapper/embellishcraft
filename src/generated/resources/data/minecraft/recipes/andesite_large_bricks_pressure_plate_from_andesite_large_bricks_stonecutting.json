@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:andesite_large_bricks"
   },
-  "result": "embellishcraft:andesite_large_bricks_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:andesite_large_bricks_pressure_plate"
 }

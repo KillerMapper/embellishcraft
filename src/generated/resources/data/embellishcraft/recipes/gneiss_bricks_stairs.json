@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:gneiss_bricks"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:gneiss_bricks_stairs",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:gneiss_bricks_stairs"
   }
 }

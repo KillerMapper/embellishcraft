@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:sandstone_tiles"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:sandstone_tiles_stairs",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:sandstone_tiles_stairs"
   }
 }

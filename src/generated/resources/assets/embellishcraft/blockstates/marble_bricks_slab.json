@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/marble_bricks_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/marble_bricks_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/marble_bricks"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/marble_bricks_slab_top"
     }
   }
 }

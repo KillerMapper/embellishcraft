@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "minecraft:cobblestone"
+    },
+    "i": {
+      "item": "minecraft:light_gray_concrete_powder"
+    }
+  },
   "pattern": [
     "ic",
     "ci"
   ],
-  "key": {
-    "i": {
-      "item": "minecraft:light_gray_concrete_powder"
-    },
-    "c": {
-      "item": "minecraft:cobblestone"
-    }
-  },
   "result": {
-    "item": "embellishcraft:damaged_paving",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:damaged_paving"
   }
 }

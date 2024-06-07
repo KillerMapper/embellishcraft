@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "side": "embellishcraft:block/gneiss_paving_stones",
     "bottom": "embellishcraft:block/gneiss_paving_stones",
+    "side": "embellishcraft:block/gneiss_paving_stones",
     "top": "embellishcraft:block/gneiss_paving_stones"
   }
 }

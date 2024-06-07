@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:smooth_diorite"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:diorite_bricks",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:diorite_bricks"
   }
 }

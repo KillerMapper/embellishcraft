@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "fancy_beds",
-  "pattern": [
-    "P P",
-    "WWW",
-    "PPP"
-  ],
   "key": {
     "P": {
       "item": "minecraft:dark_oak_planks"
@@ -14,6 +9,11 @@
       "item": "minecraft:green_wool"
     }
   },
+  "pattern": [
+    "P P",
+    "WWW",
+    "PPP"
+  ],
   "result": {
     "item": "embellishcraft:green_dark_oak_fancy_bed"
   }

@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "warped_terrace_table",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "embellishcraft:warped_terrace_table"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "name": "block.embellishcraft.warped_terrace_table",
+      "rolls": 1.0
     }
   ]
 }

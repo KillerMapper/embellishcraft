@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "chairs",
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "item": "minecraft:jungle_slab"
+    }
+  },
   "pattern": [
     "S  ",
     "SWS",
     "S S"
   ],
-  "key": {
-    "W": {
-      "item": "minecraft:jungle_slab"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
-    }
-  },
   "result": {
     "item": "embellishcraft:jungle_chair"
   }

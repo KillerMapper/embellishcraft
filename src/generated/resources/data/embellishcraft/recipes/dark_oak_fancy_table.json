@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "fancy_tables",
+  "key": {
+    "S": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "W": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
   "pattern": [
     "WWW",
     "S S",
     "S S"
   ],
-  "key": {
-    "W": {
-      "item": "minecraft:dark_oak_planks"
-    },
-    "S": {
-      "item": "minecraft:dark_oak_log"
-    }
-  },
   "result": {
-    "item": "embellishcraft:dark_oak_fancy_table",
-    "count": 2
+    "count": 2,
+    "item": "embellishcraft:dark_oak_fancy_table"
   }
 }

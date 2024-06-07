@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:polished_gneiss"
   },
-  "result": "embellishcraft:gneiss_ornament",
-  "count": 2
+  "result": "embellishcraft:gneiss_ornament"
 }

@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "minecraft:white_concrete"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:polished_paving",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:polished_paving"
   }
 }

@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_rh",
-  "textures": {
-    "bottom": "embellishcraft:block/steel_door_bottom",
-    "top": "embellishcraft:block/steel_door_top"
-  }
-}

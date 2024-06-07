@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "i",
-    "i"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:polished_gneiss_slab"
     }
   },
+  "pattern": [
+    "i",
+    "i"
+  ],
   "result": {
     "item": "embellishcraft:polished_gneiss"
   }

@@ -1,15 +1,8 @@
 {
   "variants": {
-    "facing=north,part=head": {
-      "model": "embellishcraft:block/lime_warped_fancy_bed_head"
-    },
-    "facing=south,part=head": {
-      "model": "embellishcraft:block/lime_warped_fancy_bed_head",
-      "y": 180
-    },
-    "facing=west,part=head": {
-      "model": "embellishcraft:block/lime_warped_fancy_bed_head",
-      "y": 270
+    "facing=east,part=foot": {
+      "model": "embellishcraft:block/lime_warped_fancy_bed_foot",
+      "y": 90
     },
     "facing=east,part=head": {
       "model": "embellishcraft:block/lime_warped_fancy_bed_head",
@@ -18,17 +11,24 @@
     "facing=north,part=foot": {
       "model": "embellishcraft:block/lime_warped_fancy_bed_foot"
     },
+    "facing=north,part=head": {
+      "model": "embellishcraft:block/lime_warped_fancy_bed_head"
+    },
     "facing=south,part=foot": {
       "model": "embellishcraft:block/lime_warped_fancy_bed_foot",
+      "y": 180
+    },
+    "facing=south,part=head": {
+      "model": "embellishcraft:block/lime_warped_fancy_bed_head",
       "y": 180
     },
     "facing=west,part=foot": {
       "model": "embellishcraft:block/lime_warped_fancy_bed_foot",
       "y": 270
     },
-    "facing=east,part=foot": {
-      "model": "embellishcraft:block/lime_warped_fancy_bed_foot",
-      "y": 90
+    "facing=west,part=head": {
+      "model": "embellishcraft:block/lime_warped_fancy_bed_head",
+      "y": 270
     }
   }
 }

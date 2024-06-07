@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:terracotta"
   },
-  "result": "embellishcraft:terracotta_button",
-  "count": 2
+  "result": "embellishcraft:terracotta_button"
 }

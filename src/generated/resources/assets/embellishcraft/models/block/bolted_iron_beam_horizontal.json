@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "side": "embellishcraft:block/bolted_iron_beam",
-    "end": "embellishcraft:block/iron_beam_junction"
+    "end": "embellishcraft:block/iron_beam_junction",
+    "side": "embellishcraft:block/bolted_iron_beam"
   }
 }

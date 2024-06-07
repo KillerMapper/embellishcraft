@@ -1,7 +1,7 @@
 {
   "parent": "embellishcraft:block/table_lamp",
   "textures": {
-    "texture": "embellishcraft:block/blue_table_lamp_on",
-    "particle": "embellishcraft:block/blue_table_lamp_on"
+    "particle": "embellishcraft:block/blue_table_lamp_on",
+    "texture": "embellishcraft:block/blue_table_lamp_on"
   }
 }

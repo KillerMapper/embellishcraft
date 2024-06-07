@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_head",
   "textures": {
     "head": "embellishcraft:block/purple_warped_fancy_bed_head",
-    "head_side": "embellishcraft:block/purple_warped_fancy_bed_head_side",
     "head_end": "embellishcraft:block/warped_fancy_bed_head_end",
-    "under": "minecraft:block/warped_planks",
-    "particle": "minecraft:block/warped_planks"
+    "head_side": "embellishcraft:block/purple_warped_fancy_bed_head_side",
+    "particle": "minecraft:block/warped_planks",
+    "under": "minecraft:block/warped_planks"
   }
 }

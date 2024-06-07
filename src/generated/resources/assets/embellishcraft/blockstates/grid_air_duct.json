@@ -4,8 +4,10 @@
       "model": "embellishcraft:block/grid_air_duct",
       "x": 180
     },
-    "facing=up": {
-      "model": "embellishcraft:block/grid_air_duct"
+    "facing=east": {
+      "model": "embellishcraft:block/grid_air_duct",
+      "x": 90,
+      "y": 90
     },
     "facing=north": {
       "model": "embellishcraft:block/grid_air_duct",
@@ -16,15 +18,13 @@
       "x": 90,
       "y": 180
     },
+    "facing=up": {
+      "model": "embellishcraft:block/grid_air_duct"
+    },
     "facing=west": {
       "model": "embellishcraft:block/grid_air_duct",
       "x": 90,
       "y": 270
-    },
-    "facing=east": {
-      "model": "embellishcraft:block/grid_air_duct",
-      "x": 90,
-      "y": 90
     }
   }
 }

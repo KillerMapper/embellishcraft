@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:smooth_jade"
   },
-  "result": "embellishcraft:smooth_jade_wall",
-  "count": 1
+  "result": "embellishcraft:smooth_jade_wall"
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:smooth_red_sandstone"
   },
-  "result": "embellishcraft:smooth_red_sandstone_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:smooth_red_sandstone_pressure_plate"
 }

@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "i",
-    "i"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:dark_concrete_paving_slab"
     }
   },
+  "pattern": [
+    "i",
+    "i"
+  ],
   "result": {
     "item": "embellishcraft:dark_concrete_paving"
   }

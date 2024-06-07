@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:larvikite_bricks"
   },
-  "result": "embellishcraft:larvikite_bricks_wall",
-  "count": 1
+  "result": "embellishcraft:larvikite_bricks_wall"
 }

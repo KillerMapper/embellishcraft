@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:polished_larvikite_slab"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
-    "item": "embellishcraft:larvikite_ornament",
-    "count": 2
+    "count": 2,
+    "item": "embellishcraft:larvikite_ornament"
   }
 }

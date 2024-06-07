@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:basalt"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:basalt_bricks",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:basalt_bricks"
   }
 }

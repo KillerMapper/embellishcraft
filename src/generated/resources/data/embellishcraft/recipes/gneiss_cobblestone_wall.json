@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:gneiss_cobblestone"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:gneiss_cobblestone_wall",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:gneiss_cobblestone_wall"
   }
 }

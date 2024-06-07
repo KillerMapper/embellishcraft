@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": {
+      "tag": "forge:rods/steel"
+    },
+    "W": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "WWW",
     " S ",
     " S "
   ],
-  "key": {
-    "W": {
-      "tag": "forge:plates/steel"
-    },
-    "S": {
-      "tag": "forge:rods/steel"
-    }
-  },
   "result": {
-    "item": "embellishcraft:steel_terrace_table",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:steel_terrace_table"
   }
 }

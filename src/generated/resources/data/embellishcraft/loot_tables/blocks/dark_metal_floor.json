@@ -2,20 +2,20 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "dark_metal_floor",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "embellishcraft:dark_metal_floor"
         }
       ],
-      "conditions": [
-        {
-          "condition": "minecraft:survives_explosion"
-        }
-      ]
+      "name": "block.embellishcraft.dark_metal_floor",
+      "rolls": 1.0
     }
   ]
 }

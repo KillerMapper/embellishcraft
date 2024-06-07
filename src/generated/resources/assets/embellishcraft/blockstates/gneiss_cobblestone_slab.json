@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/gneiss_cobblestone_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/gneiss_cobblestone_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/gneiss_cobblestone"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/gneiss_cobblestone_slab_top"
     }
   }
 }

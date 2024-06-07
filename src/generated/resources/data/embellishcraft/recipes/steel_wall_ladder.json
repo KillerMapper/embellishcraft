@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "tag": "forge:ingots/steel"
+    },
+    "r": {
+      "tag": "forge:rods/steel"
+    }
+  },
   "pattern": [
     "r r",
     "iri",
     "r r"
   ],
-  "key": {
-    "r": {
-      "tag": "forge:rods/steel"
-    },
-    "i": {
-      "tag": "forge:ingots/steel"
-    }
-  },
   "result": {
-    "item": "embellishcraft:steel_wall_ladder",
-    "count": 16
+    "count": 16,
+    "item": "embellishcraft:steel_wall_ladder"
   }
 }

@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "wooden_crates",
-  "pattern": [
-    "BWB",
-    "W W",
-    "BWB"
-  ],
   "key": {
     "B": {
       "item": "mapperbase:bolt"
@@ -14,6 +9,11 @@
       "item": "minecraft:dark_oak_planks"
     }
   },
+  "pattern": [
+    "BWB",
+    "W W",
+    "BWB"
+  ],
   "result": {
     "item": "embellishcraft:dark_oak_wooden_crate"
   }

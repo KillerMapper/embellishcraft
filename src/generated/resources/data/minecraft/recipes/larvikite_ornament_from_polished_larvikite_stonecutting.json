@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:polished_larvikite"
   },
-  "result": "embellishcraft:larvikite_ornament",
-  "count": 2
+  "result": "embellishcraft:larvikite_ornament"
 }

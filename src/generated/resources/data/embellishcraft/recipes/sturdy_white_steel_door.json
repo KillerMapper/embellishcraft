@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "embellishcraft:white_steel_door"
+    },
+    "P": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "D",
     "P"
   ],
-  "key": {
-    "P": {
-      "tag": "forge:plates/steel"
-    },
-    "D": {
-      "item": "embellishcraft:white_steel_door"
-    }
-  },
   "result": {
     "item": "embellishcraft:sturdy_white_steel_door"
   }

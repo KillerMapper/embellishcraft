@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_foot",
   "textures": {
     "foot": "embellishcraft:block/light_blue_jungle_fancy_bed_foot",
-    "foot_side": "embellishcraft:block/light_blue_jungle_fancy_bed_foot_side",
     "foot_end": "embellishcraft:block/jungle_fancy_bed_foot_end",
-    "under": "minecraft:block/jungle_planks",
-    "particle": "minecraft:block/jungle_planks"
+    "foot_side": "embellishcraft:block/light_blue_jungle_fancy_bed_foot_side",
+    "particle": "minecraft:block/jungle_planks",
+    "under": "minecraft:block/jungle_planks"
   }
 }

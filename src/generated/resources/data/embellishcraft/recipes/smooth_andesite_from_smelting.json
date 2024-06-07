@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
   "ingredient": {
     "item": "minecraft:andesite"
   },
-  "result": "embellishcraft:smooth_andesite",
-  "experience": 0.1,
-  "cookingtime": 200
+  "result": "embellishcraft:smooth_andesite"
 }

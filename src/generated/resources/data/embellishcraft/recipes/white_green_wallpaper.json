@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "  s",
-    "lps",
-    "  s"
-  ],
   "key": {
-    "s": {
-      "item": "minecraft:stone"
-    },
     "l": {
       "tag": "forge:dyes/lime"
     },
     "p": {
       "item": "minecraft:paper"
+    },
+    "s": {
+      "item": "minecraft:stone"
     }
   },
+  "pattern": [
+    "  s",
+    "lps",
+    "  s"
+  ],
   "result": {
-    "item": "embellishcraft:white_green_wallpaper",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:white_green_wallpaper"
   }
 }

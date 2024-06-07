@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:dyes/yellow"
+    },
+    "P": {
+      "item": "embellishcraft:white_steel_door"
+    }
+  },
   "pattern": [
     "D",
     "P"
   ],
-  "key": {
-    "P": {
-      "item": "embellishcraft:white_steel_door"
-    },
-    "D": {
-      "tag": "forge:dyes/yellow"
-    }
-  },
   "result": {
     "item": "embellishcraft:warning_white_steel_door"
   }

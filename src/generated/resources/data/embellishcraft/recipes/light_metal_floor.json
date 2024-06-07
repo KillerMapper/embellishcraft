@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/gray"
+    },
+    "i": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "iid",
     "ii "
   ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/steel"
-    },
-    "d": {
-      "tag": "forge:dyes/gray"
-    }
-  },
   "result": {
-    "item": "embellishcraft:light_metal_floor",
-    "count": 8
+    "count": 8,
+    "item": "embellishcraft:light_metal_floor"
   }
 }

@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_foot",
   "textures": {
     "foot": "embellishcraft:block/magenta_birch_fancy_bed_foot",
-    "foot_side": "embellishcraft:block/magenta_birch_fancy_bed_foot_side",
     "foot_end": "embellishcraft:block/birch_fancy_bed_foot_end",
-    "under": "minecraft:block/birch_planks",
-    "particle": "minecraft:block/birch_planks"
+    "foot_side": "embellishcraft:block/magenta_birch_fancy_bed_foot_side",
+    "particle": "minecraft:block/birch_planks",
+    "under": "minecraft:block/birch_planks"
   }
 }

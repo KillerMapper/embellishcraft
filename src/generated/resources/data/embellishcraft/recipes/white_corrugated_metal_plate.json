@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/white"
+    },
+    "i": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "iii",
     "idi",
     "iii"
   ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/steel"
-    },
-    "d": {
-      "tag": "forge:dyes/white"
-    }
-  },
   "result": {
-    "item": "embellishcraft:white_corrugated_metal_plate",
-    "count": 16
+    "count": 16,
+    "item": "embellishcraft:white_corrugated_metal_plate"
   }
 }

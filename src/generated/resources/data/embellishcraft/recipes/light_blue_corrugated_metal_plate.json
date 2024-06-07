@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/light_blue"
+    },
+    "i": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "iii",
     "idi",
     "iii"
   ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/steel"
-    },
-    "d": {
-      "tag": "forge:dyes/light_blue"
-    }
-  },
   "result": {
-    "item": "embellishcraft:light_blue_corrugated_metal_plate",
-    "count": 16
+    "count": 16,
+    "item": "embellishcraft:light_blue_corrugated_metal_plate"
   }
 }

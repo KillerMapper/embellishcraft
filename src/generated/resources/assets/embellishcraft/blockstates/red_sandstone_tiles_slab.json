@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/red_sandstone_tiles_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/red_sandstone_tiles_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/red_sandstone_tiles"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/red_sandstone_tiles_slab_top"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:slate_cobblestone_bricks"
   },
-  "result": "embellishcraft:slate_cobblestone_bricks_wall",
-  "count": 1
+  "result": "embellishcraft:slate_cobblestone_bricks_wall"
 }

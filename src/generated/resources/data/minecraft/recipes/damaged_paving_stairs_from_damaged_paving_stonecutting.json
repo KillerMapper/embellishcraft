@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:damaged_paving"
   },
-  "result": "embellishcraft:damaged_paving_stairs",
-  "count": 1
+  "result": "embellishcraft:damaged_paving_stairs"
 }

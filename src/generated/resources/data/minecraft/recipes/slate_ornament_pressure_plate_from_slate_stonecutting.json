@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:slate_ornament"
   },
-  "result": "embellishcraft:slate_ornament_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:slate_ornament_pressure_plate"
 }

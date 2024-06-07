@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "fancy_doors",
+  "key": {
+    "B": {
+      "item": "minecraft:spruce_button"
+    },
+    "P": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
   "pattern": [
     "PP",
     "PB",
     "PP"
   ],
-  "key": {
-    "P": {
-      "item": "minecraft:spruce_planks"
-    },
-    "B": {
-      "item": "minecraft:spruce_button"
-    }
-  },
   "result": {
-    "item": "embellishcraft:spruce_fancy_door",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:spruce_fancy_door"
   }
 }

@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "minecraft:diorite"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
-    "item": "embellishcraft:diorite_rooftiles",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:diorite_rooftiles"
   }
 }

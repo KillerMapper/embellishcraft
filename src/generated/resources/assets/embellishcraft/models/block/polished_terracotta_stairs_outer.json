@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "side": "embellishcraft:block/polished_terracotta",
     "bottom": "embellishcraft:block/polished_terracotta",
+    "side": "embellishcraft:block/polished_terracotta",
     "top": "embellishcraft:block/polished_terracotta"
   }
 }

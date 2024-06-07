@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:marble_bricks"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:marble_large_bricks",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:marble_large_bricks"
   }
 }

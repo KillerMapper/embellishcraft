@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "side": "embellishcraft:block/bulkhead",
-    "end": "embellishcraft:block/concrete"
+    "end": "embellishcraft:block/concrete",
+    "side": "embellishcraft:block/bulkhead"
   }
 }

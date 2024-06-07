@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "side": "embellishcraft:block/weared_large_bricks",
     "bottom": "embellishcraft:block/weared_large_bricks",
+    "side": "embellishcraft:block/weared_large_bricks",
     "top": "embellishcraft:block/weared_large_bricks"
   }
 }

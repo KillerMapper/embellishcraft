@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "minecraft:terracotta"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:terracotta_bricks",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:terracotta_bricks"
   }
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "minecraft:sandstone"
   },
-  "result": "embellishcraft:sandstone_button",
-  "count": 2
+  "result": "embellishcraft:sandstone_button"
 }

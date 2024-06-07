@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "plain_doors",
+  "key": {
+    "B": {
+      "item": "minecraft:jungle_button"
+    },
+    "P": {
+      "item": "minecraft:jungle_log"
+    }
+  },
   "pattern": [
     "PP",
     "PB",
     "PP"
   ],
-  "key": {
-    "P": {
-      "item": "minecraft:jungle_log"
-    },
-    "B": {
-      "item": "minecraft:jungle_button"
-    }
-  },
   "result": {
-    "item": "embellishcraft:jungle_plain_door",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:jungle_plain_door"
   }
 }

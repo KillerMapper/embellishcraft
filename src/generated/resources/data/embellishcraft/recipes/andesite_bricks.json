@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "ii",
-    "ii"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:smooth_andesite"
     }
   },
+  "pattern": [
+    "ii",
+    "ii"
+  ],
   "result": {
-    "item": "embellishcraft:andesite_bricks",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:andesite_bricks"
   }
 }

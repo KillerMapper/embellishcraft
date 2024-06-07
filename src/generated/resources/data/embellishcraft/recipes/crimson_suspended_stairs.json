@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "suspended_stairs",
-  "pattern": [
-    "  P",
-    " PS",
-    "PS "
-  ],
   "key": {
     "P": {
       "item": "minecraft:crimson_slab"
@@ -14,8 +9,13 @@
       "tag": "forge:rods/wooden"
     }
   },
+  "pattern": [
+    "  P",
+    " PS",
+    "PS "
+  ],
   "result": {
-    "item": "embellishcraft:crimson_suspended_stairs",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:crimson_suspended_stairs"
   }
 }

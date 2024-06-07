@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "i",
-    "i"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:iron_beam"
     }
   },
+  "pattern": [
+    "i",
+    "i"
+  ],
   "result": {
-    "item": "embellishcraft:bulkhead",
-    "count": 2
+    "count": 2,
+    "item": "embellishcraft:bulkhead"
   }
 }

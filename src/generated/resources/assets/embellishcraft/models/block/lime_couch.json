@@ -1,9 +1,9 @@
 {
   "parent": "embellishcraft:block/couch",
   "textures": {
-    "fabric": "minecraft:block/lime_wool",
-    "base": "minecraft:block/oak_planks",
     "back": "minecraft:block/stripped_oak_log",
+    "base": "minecraft:block/oak_planks",
+    "fabric": "minecraft:block/lime_wool",
     "particle": "minecraft:block/lime_wool"
   }
 }

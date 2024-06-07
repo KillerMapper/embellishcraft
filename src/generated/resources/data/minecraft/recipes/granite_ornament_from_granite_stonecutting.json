@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "minecraft:granite"
   },
-  "result": "embellishcraft:granite_ornament",
-  "count": 1
+  "result": "embellishcraft:granite_ornament"
 }

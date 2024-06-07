@@ -1,26 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": {
+      "tag": "forge:dyes/pink"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "s": {
+      "item": "minecraft:stone"
+    },
+    "w": {
+      "tag": "forge:dyes/white"
+    }
+  },
   "pattern": [
     "  s",
     "lps",
     "w s"
   ],
-  "key": {
-    "s": {
-      "item": "minecraft:stone"
-    },
-    "l": {
-      "tag": "forge:dyes/pink"
-    },
-    "w": {
-      "tag": "forge:dyes/white"
-    },
-    "p": {
-      "item": "minecraft:paper"
-    }
-  },
   "result": {
-    "item": "embellishcraft:beige_wallpaper",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:beige_wallpaper"
   }
 }

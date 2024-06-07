@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "minecraft:sandstone"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
-    "item": "embellishcraft:sandstone_rooftiles",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:sandstone_rooftiles"
   }
 }

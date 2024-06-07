@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "side": "embellishcraft:block/sandstone_large_bricks",
     "bottom": "embellishcraft:block/sandstone_large_bricks",
+    "side": "embellishcraft:block/sandstone_large_bricks",
     "top": "embellishcraft:block/sandstone_large_bricks"
   }
 }

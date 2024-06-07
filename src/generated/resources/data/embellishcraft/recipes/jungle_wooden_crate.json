@@ -1,11 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "wooden_crates",
-  "pattern": [
-    "BWB",
-    "W W",
-    "BWB"
-  ],
   "key": {
     "B": {
       "item": "mapperbase:bolt"
@@ -14,6 +9,11 @@
       "item": "minecraft:jungle_planks"
     }
   },
+  "pattern": [
+    "BWB",
+    "W W",
+    "BWB"
+  ],
   "result": {
     "item": "embellishcraft:jungle_wooden_crate"
   }

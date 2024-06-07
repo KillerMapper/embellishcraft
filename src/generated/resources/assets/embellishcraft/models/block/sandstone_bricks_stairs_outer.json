@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "side": "embellishcraft:block/sandstone_bricks",
     "bottom": "embellishcraft:block/sandstone_bricks",
+    "side": "embellishcraft:block/sandstone_bricks",
     "top": "embellishcraft:block/sandstone_bricks"
   }
 }

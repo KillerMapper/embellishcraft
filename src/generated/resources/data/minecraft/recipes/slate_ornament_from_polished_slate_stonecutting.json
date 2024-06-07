@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:polished_slate"
   },
-  "result": "embellishcraft:slate_ornament",
-  "count": 2
+  "result": "embellishcraft:slate_ornament"
 }

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:gneiss_paving"
   },
-  "result": "embellishcraft:gneiss_paving_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:gneiss_paving_pressure_plate"
 }

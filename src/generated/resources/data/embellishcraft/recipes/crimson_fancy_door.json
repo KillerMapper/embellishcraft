@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "fancy_doors",
+  "key": {
+    "B": {
+      "item": "minecraft:crimson_button"
+    },
+    "P": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
   "pattern": [
     "PP",
     "PB",
     "PP"
   ],
-  "key": {
-    "P": {
-      "item": "minecraft:crimson_planks"
-    },
-    "B": {
-      "item": "minecraft:crimson_button"
-    }
-  },
   "result": {
-    "item": "embellishcraft:crimson_fancy_door",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:crimson_fancy_door"
   }
 }

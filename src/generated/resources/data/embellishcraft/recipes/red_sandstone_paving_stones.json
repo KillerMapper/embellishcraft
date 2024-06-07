@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " i ",
-    "i i",
-    " i "
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:red_sandstone_bricks"
     }
   },
+  "pattern": [
+    " i ",
+    "i i",
+    " i "
+  ],
   "result": {
-    "item": "embellishcraft:red_sandstone_paving_stones",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:red_sandstone_paving_stones"
   }
 }

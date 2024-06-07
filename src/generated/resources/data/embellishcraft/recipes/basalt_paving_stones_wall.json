@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:basalt_paving_stones"
     }
   },
+  "pattern": [
+    "###",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:basalt_paving_stones_wall",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:basalt_paving_stones_wall"
   }
 }

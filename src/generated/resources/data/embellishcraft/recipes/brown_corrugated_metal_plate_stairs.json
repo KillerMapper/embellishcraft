@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "#  ",
-    "## ",
-    "###"
-  ],
   "key": {
     "#": {
       "item": "embellishcraft:brown_corrugated_metal_plate"
     }
   },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
   "result": {
-    "item": "embellishcraft:brown_corrugated_metal_plate_stairs",
-    "count": 4
+    "count": 4,
+    "item": "embellishcraft:brown_corrugated_metal_plate_stairs"
   }
 }

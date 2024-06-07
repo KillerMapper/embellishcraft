@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:marble_cobblestone"
   },
-  "result": "embellishcraft:marble_cobblestone_wall",
-  "count": 1
+  "result": "embellishcraft:marble_cobblestone_wall"
 }

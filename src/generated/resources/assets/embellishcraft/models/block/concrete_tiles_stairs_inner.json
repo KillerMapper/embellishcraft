@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/inner_stairs",
   "textures": {
-    "side": "embellishcraft:block/concrete_tiles",
     "bottom": "embellishcraft:block/concrete_tiles",
+    "side": "embellishcraft:block/concrete_tiles",
     "top": "embellishcraft:block/concrete_tiles"
   }
 }

@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "mapperbase:bolt"
+    },
+    "R": {
+      "tag": "forge:rods/steel"
+    },
+    "S": {
+      "tag": "forge:ingots/steel"
+    }
+  },
   "pattern": [
     "BS",
     "RS",
     "BS"
   ],
-  "key": {
-    "S": {
-      "tag": "forge:ingots/steel"
-    },
-    "R": {
-      "tag": "forge:rods/steel"
-    },
-    "B": {
-      "item": "mapperbase:bolt"
-    }
-  },
   "result": {
-    "item": "embellishcraft:steel_door",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:steel_door"
   }
 }

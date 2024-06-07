@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/polished_sandstone_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/polished_sandstone_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/polished_sandstone"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/polished_sandstone_slab_top"
     }
   }
 }

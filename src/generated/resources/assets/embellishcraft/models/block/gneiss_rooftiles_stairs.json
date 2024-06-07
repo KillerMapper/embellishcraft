@@ -1,9 +1,9 @@
 {
   "parent": "embellishcraft:block/rooftiles_stairs",
   "textures": {
-    "top": "embellishcraft:block/gneiss_rooftiles",
     "bottom": "embellishcraft:block/gneiss_rooftiles",
+    "particle": "embellishcraft:block/gneiss_rooftiles",
     "side": "embellishcraft:block/gneiss_rooftiles",
-    "particle": "embellishcraft:block/gneiss_rooftiles"
+    "top": "embellishcraft:block/gneiss_rooftiles"
   }
 }

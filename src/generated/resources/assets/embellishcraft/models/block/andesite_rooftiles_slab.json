@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "side": "embellishcraft:block/andesite_rooftiles",
     "bottom": "embellishcraft:block/andesite_rooftiles",
+    "side": "embellishcraft:block/andesite_rooftiles",
     "top": "embellishcraft:block/andesite_rooftiles"
   }
 }

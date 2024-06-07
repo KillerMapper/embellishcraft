@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/pink"
+    },
+    "i": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     "iii",
     "idi",
     "iii"
   ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/steel"
-    },
-    "d": {
-      "tag": "forge:dyes/pink"
-    }
-  },
   "result": {
-    "item": "embellishcraft:pink_corrugated_metal_plate",
-    "count": 16
+    "count": 16,
+    "item": "embellishcraft:pink_corrugated_metal_plate"
   }
 }

@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/smooth_slate_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/smooth_slate_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/smooth_slate"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/smooth_slate_slab_top"
     }
   }
 }

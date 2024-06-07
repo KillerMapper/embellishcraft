@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "s": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "w": {
+      "item": "embellishcraft:pink_wallpaper"
+    }
+  },
   "pattern": [
     "w",
     "s"
   ],
-  "key": {
-    "w": {
-      "item": "embellishcraft:pink_wallpaper"
-    },
-    "s": {
-      "tag": "minecraft:wooden_slabs"
-    }
-  },
   "result": {
     "item": "embellishcraft:pink_wallpaper_plinth"
   }

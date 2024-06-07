@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "embellishcraft:magenta_corrugated_metal_plate"
+    },
+    "S": {
+      "tag": "forge:rods/steel"
+    }
+  },
   "pattern": [
     "S#S",
     "S#S"
   ],
-  "key": {
-    "S": {
-      "tag": "forge:rods/steel"
-    },
-    "#": {
-      "item": "embellishcraft:magenta_corrugated_metal_plate"
-    }
-  },
   "result": {
-    "item": "embellishcraft:magenta_corrugated_metal_plate_fence_gate",
-    "count": 6
+    "count": 6,
+    "item": "embellishcraft:magenta_corrugated_metal_plate_fence_gate"
   }
 }

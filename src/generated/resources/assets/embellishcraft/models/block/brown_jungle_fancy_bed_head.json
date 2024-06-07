@@ -2,9 +2,9 @@
   "parent": "embellishcraft:block/fancy_bed_head",
   "textures": {
     "head": "embellishcraft:block/brown_jungle_fancy_bed_head",
-    "head_side": "embellishcraft:block/brown_jungle_fancy_bed_head_side",
     "head_end": "embellishcraft:block/jungle_fancy_bed_head_end",
-    "under": "minecraft:block/jungle_planks",
-    "particle": "minecraft:block/jungle_planks"
+    "head_side": "embellishcraft:block/brown_jungle_fancy_bed_head_side",
+    "particle": "minecraft:block/jungle_planks",
+    "under": "minecraft:block/jungle_planks"
   }
 }

@@ -1,9 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "c",
-    "i"
-  ],
   "key": {
     "c": {
       "tag": "forge:gravel"
@@ -12,8 +8,12 @@
       "item": "embellishcraft:bulkhead"
     }
   },
+  "pattern": [
+    "c",
+    "i"
+  ],
   "result": {
-    "item": "embellishcraft:bulkhead_top",
-    "count": 2
+    "count": 2,
+    "item": "embellishcraft:bulkhead_top"
   }
 }

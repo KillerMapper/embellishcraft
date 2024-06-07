@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "i",
-    "i"
-  ],
   "key": {
     "i": {
       "item": "embellishcraft:old_large_bricks_slab"
     }
   },
+  "pattern": [
+    "i",
+    "i"
+  ],
   "result": {
     "item": "embellishcraft:old_large_bricks"
   }

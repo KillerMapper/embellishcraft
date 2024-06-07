@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab",
   "textures": {
-    "side": "embellishcraft:block/marble_rooftiles",
     "bottom": "embellishcraft:block/marble_rooftiles",
+    "side": "embellishcraft:block/marble_rooftiles",
     "top": "embellishcraft:block/marble_rooftiles"
   }
 }

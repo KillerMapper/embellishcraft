@@ -1,8 +1,8 @@
 {
   "parent": "embellishcraft:block/fancy_table_foot",
   "textures": {
+    "particle": "minecraft:block/crimson_planks",
     "side": "embellishcraft:block/crimson_fancy_table_side",
-    "top": "embellishcraft:block/crimson_fancy_table_top",
-    "particle": "minecraft:block/crimson_planks"
+    "top": "embellishcraft:block/crimson_fancy_table_top"
   }
 }

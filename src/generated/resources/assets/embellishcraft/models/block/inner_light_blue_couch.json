@@ -1,9 +1,9 @@
 {
   "parent": "embellishcraft:block/inner_couch",
   "textures": {
-    "fabric": "minecraft:block/light_blue_wool",
-    "base": "minecraft:block/oak_planks",
     "back": "minecraft:block/stripped_oak_log",
+    "base": "minecraft:block/oak_planks",
+    "fabric": "minecraft:block/light_blue_wool",
     "particle": "minecraft:block/light_blue_wool"
   }
 }

@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/outer_stairs",
   "textures": {
-    "side": "embellishcraft:block/orange_corrugated_metal_plate",
     "bottom": "embellishcraft:block/orange_corrugated_metal_plate",
+    "side": "embellishcraft:block/orange_corrugated_metal_plate",
     "top": "embellishcraft:block/orange_corrugated_metal_plate"
   }
 }

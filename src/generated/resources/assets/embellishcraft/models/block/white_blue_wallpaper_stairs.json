@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/stairs",
   "textures": {
-    "side": "embellishcraft:block/white_blue_wallpaper",
     "bottom": "embellishcraft:block/side_wallpaper",
+    "side": "embellishcraft:block/white_blue_wallpaper",
     "top": "embellishcraft:block/white_blue_wallpaper"
   }
 }

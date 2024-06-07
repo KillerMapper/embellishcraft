@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "side": "embellishcraft:block/spruce_wooden_crate",
-    "end": "embellishcraft:block/spruce_wooden_crate_top"
+    "end": "embellishcraft:block/spruce_wooden_crate_top",
+    "side": "embellishcraft:block/spruce_wooden_crate"
   }
 }

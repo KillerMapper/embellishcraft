@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:marble_paving"
   },
-  "result": "embellishcraft:marble_paving_slab",
-  "count": 2
+  "result": "embellishcraft:marble_paving_slab"
 }

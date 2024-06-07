@@ -1,13 +1,13 @@
 {
   "variants": {
-    "type=top": {
-      "model": "embellishcraft:block/dark_metal_floor_slab_top"
-    },
     "type=bottom": {
       "model": "embellishcraft:block/dark_metal_floor_slab"
     },
     "type=double": {
       "model": "embellishcraft:block/dark_metal_floor"
+    },
+    "type=top": {
+      "model": "embellishcraft:block/dark_metal_floor_slab_top"
     }
   }
 }

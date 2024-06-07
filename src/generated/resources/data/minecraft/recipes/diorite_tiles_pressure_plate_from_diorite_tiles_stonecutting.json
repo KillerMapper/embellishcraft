@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:diorite_tiles"
   },
-  "result": "embellishcraft:diorite_tiles_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:diorite_tiles_pressure_plate"
 }

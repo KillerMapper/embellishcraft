@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "r r",
-    " r "
-  ],
   "key": {
     "r": {
       "tag": "forge:rods/steel"
     }
   },
+  "pattern": [
+    "r r",
+    " r "
+  ],
   "result": {
-    "item": "embellishcraft:steel_rungs",
-    "count": 8
+    "count": 8,
+    "item": "embellishcraft:steel_rungs"
   }
 }

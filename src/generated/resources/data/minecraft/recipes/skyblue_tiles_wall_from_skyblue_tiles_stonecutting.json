@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 1,
   "ingredient": {
     "item": "embellishcraft:skyblue_tiles"
   },
-  "result": "embellishcraft:skyblue_tiles_wall",
-  "count": 1
+  "result": "embellishcraft:skyblue_tiles_wall"
 }

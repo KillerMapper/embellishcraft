@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "plain_doors",
+  "key": {
+    "B": {
+      "item": "minecraft:spruce_button"
+    },
+    "P": {
+      "item": "minecraft:spruce_log"
+    }
+  },
   "pattern": [
     "PP",
     "PB",
     "PP"
   ],
-  "key": {
-    "P": {
-      "item": "minecraft:spruce_log"
-    },
-    "B": {
-      "item": "minecraft:spruce_button"
-    }
-  },
   "result": {
-    "item": "embellishcraft:spruce_plain_door",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:spruce_plain_door"
   }
 }

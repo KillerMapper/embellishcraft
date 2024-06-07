@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "chairs",
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "item": "minecraft:oak_slab"
+    }
+  },
   "pattern": [
     "S  ",
     "SWS",
     "S S"
   ],
-  "key": {
-    "W": {
-      "item": "minecraft:oak_slab"
-    },
-    "S": {
-      "tag": "forge:rods/wooden"
-    }
-  },
   "result": {
     "item": "embellishcraft:oak_chair"
   }

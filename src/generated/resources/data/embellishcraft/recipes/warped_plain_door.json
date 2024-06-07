@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "plain_doors",
+  "key": {
+    "B": {
+      "item": "minecraft:warped_button"
+    },
+    "P": {
+      "item": "minecraft:warped_stem"
+    }
+  },
   "pattern": [
     "PP",
     "PB",
     "PP"
   ],
-  "key": {
-    "P": {
-      "item": "minecraft:warped_stem"
-    },
-    "B": {
-      "item": "minecraft:warped_button"
-    }
-  },
   "result": {
-    "item": "embellishcraft:warped_plain_door",
-    "count": 3
+    "count": 3,
+    "item": "embellishcraft:warped_plain_door"
   }
 }

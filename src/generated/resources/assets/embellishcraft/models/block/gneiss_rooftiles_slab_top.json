@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/slab_top",
   "textures": {
-    "side": "embellishcraft:block/gneiss_rooftiles",
     "bottom": "embellishcraft:block/gneiss_rooftiles",
+    "side": "embellishcraft:block/gneiss_rooftiles",
     "top": "embellishcraft:block/gneiss_rooftiles"
   }
 }

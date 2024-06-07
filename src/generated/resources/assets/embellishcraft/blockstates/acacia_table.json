@@ -6,42 +6,42 @@
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/acacia_table_foot",
+        "uvlock": true
+      },
       "when": {
         "table_north": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/acacia_table_foot",
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/acacia_table_foot",
+        "uvlock": true,
+        "y": 90
+      },
       "when": {
         "table_east": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/acacia_table_foot",
-        "y": 90,
-        "uvlock": true
       }
     },
     {
+      "apply": {
+        "model": "embellishcraft:block/acacia_table_foot",
+        "uvlock": true,
+        "y": 180
+      },
       "when": {
         "table_south": "true"
-      },
-      "apply": {
-        "model": "embellishcraft:block/acacia_table_foot",
-        "y": 180,
-        "uvlock": true
       }
     },
     {
-      "when": {
-        "table_west": "true"
-      },
       "apply": {
         "model": "embellishcraft:block/acacia_table_foot",
-        "y": 270,
-        "uvlock": true
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "table_west": "true"
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
+  "count": 2,
   "ingredient": {
     "item": "embellishcraft:sandstone_tiles"
   },
-  "result": "embellishcraft:sandstone_tiles_pressure_plate",
-  "count": 2
+  "result": "embellishcraft:sandstone_tiles_pressure_plate"
 }

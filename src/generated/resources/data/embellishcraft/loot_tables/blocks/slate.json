@@ -2,8 +2,6 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "name": "slate",
-      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "entries": [
         {
@@ -39,7 +37,9 @@
             }
           ]
         }
-      ]
+      ],
+      "name": "block.embellishcraft.slate",
+      "rolls": 1.0
     }
   ]
 }

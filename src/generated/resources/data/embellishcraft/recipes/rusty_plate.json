@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "d": {
+      "tag": "forge:dyes/orange"
+    },
+    "i": {
+      "tag": "forge:plates/steel"
+    }
+  },
   "pattern": [
     " i ",
     "idi",
     " i "
   ],
-  "key": {
-    "i": {
-      "tag": "forge:plates/steel"
-    },
-    "d": {
-      "tag": "forge:dyes/orange"
-    }
-  },
   "result": {
-    "item": "embellishcraft:rusty_plate",
-    "count": 8
+    "count": 8,
+    "item": "embellishcraft:rusty_plate"
   }
 }
