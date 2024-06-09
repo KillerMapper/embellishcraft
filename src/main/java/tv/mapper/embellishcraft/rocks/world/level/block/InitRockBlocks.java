@@ -30,7 +30,8 @@ public class InitRockBlocks
     public static final DeferredRegister<Block> ROCK_BLOCK_REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ECConstants.MODID);
 
     // Rocks
-    public static final Map<RockType, RegistryObject<CustomBlock>> ROCK_BLOCKS = Arrays.stream(RockType.values()).map(type -> Pair.of(type, ROCK_BLOCK_REGISTRY.register(type.getName(), () -> new CustomBlock(Block.Properties.of(Material.STONE, type.getColor()).strength(1.5F, 6.0F).requiresCorrectToolForDrops().requiresCorrectToolForDrops(), ToolTypes.PICKAXE)))).collect(Collectors.toMap(Pair::getKey, Pair::getValue));
+    public static final Map<RockType, RegistryObject<CustomBlock>> ROCK_BLOCKS = Arrays.stream(RockType.values())
+            .map(type -> Pair.of(type, ROCK_BLOCK_REGISTRY.register(type.getName(), () -> new CustomBlock(Block.Properties.of(Material.STONE, type.getColor()).strength(1.5F, 6.0F).requiresCorrectToolForDrops().requiresCorrectToolForDrops(), ToolTypes.PICKAXE)))).collect(Collectors.toMap(Pair::getKey, Pair::getValue));
 
     public static final Map<RockType, RegistryObject<CustomStairsBlock>> ROCK_STAIRS = Arrays.stream(RockType.values()).map(type -> Pair.of(type, ROCK_BLOCK_REGISTRY.register(type.getName() + "_stairs", () -> new CustomStairsBlock(() -> ROCK_BLOCKS.get(type).get().defaultBlockState(), Block.Properties.of(Material.STONE, type.getColor()).strength(1.5F, 6.0F).requiresCorrectToolForDrops(), ToolTypes.PICKAXE)))).collect(Collectors.toMap(Pair::getKey, Pair::getValue));
 
