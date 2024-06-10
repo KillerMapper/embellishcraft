@@ -35,14 +35,10 @@ public class ModTileEntityTypes
     @SubscribeEvent
     public static void registerTileEntities(RegisterEvent event)
     {
-        EmbellishCraft.LOGGER.info("1.3- EmbellishCraft: TE registering.");
-
         // for(RegistryObject<CustomChestBlock> object : InitFurnitureBlocks.FANCY_CHESTS)
         // {
         // CHESTS.add(object.get());
         // }
-
-        EmbellishCraft.LOGGER.info("EmbellishCraft: if this line crashes please report to https://github.com/MapperTV/embellishcraft/issues/19");
 
         // event.getRegistry().register(BlockEntityType.Builder.of(CustomChestTileEntity::new, CHESTS.toArray(new
         // Block[InitFurnitureBlocks.FANCY_CHESTS.size()])).build(null).setRegistryName("custom_chest"));

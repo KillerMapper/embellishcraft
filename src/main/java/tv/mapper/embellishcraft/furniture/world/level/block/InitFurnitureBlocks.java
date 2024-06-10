@@ -84,7 +84,6 @@ public class InitFurnitureBlocks
 
     public static void postInit()
     {
-        EmbellishCraft.LOGGER.info("1.2- EmbellishCraft: block listing.");
         for(int i = 0; i < McWoods.values().length; i++)
         {
             // FANCY_CHESTS.add(FANCY_CHEST_BLOCKS.get(McWoods.byId(i)));
