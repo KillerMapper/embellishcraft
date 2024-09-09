@@ -1,19 +1,19 @@
 package tv.mapper.embellishcraft.core.util;
 
+import net.minecraft.util.StringRepresentable;
+import net.minecraft.world.level.material.MapColor;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.util.StringRepresentable;
-
 public enum RockType implements StringRepresentable
 {
-    BASALT(0, "basalt", "basalt", MaterialColor.COLOR_BLACK),
-    SLATE(1, "slate", "ardoise", MaterialColor.TERRACOTTA_BLUE),
-    MARBLE(2, "marble", "marbre", MaterialColor.QUARTZ),
-    GNEISS(3, "gneiss", "gneiss", MaterialColor.TERRACOTTA_WHITE),
-    JADE(4, "jade", "jade", MaterialColor.TERRACOTTA_GREEN),
-    LARVIKITE(5, "larvikite", "larvikite", MaterialColor.TERRACOTTA_LIGHT_BLUE);
+    BASALT(0, "basalt", "basalt", MapColor.COLOR_BLACK),
+    SLATE(1, "slate", "ardoise", MapColor.TERRACOTTA_BLUE),
+    MARBLE(2, "marble", "marbre", MapColor.QUARTZ),
+    GNEISS(3, "gneiss", "gneiss", MapColor.TERRACOTTA_WHITE),
+    JADE(4, "jade", "jade", MapColor.TERRACOTTA_GREEN),
+    LARVIKITE(5, "larvikite", "larvikite", MapColor.TERRACOTTA_LIGHT_BLUE);
 
     private static final RockType[] VALUES = Arrays.stream(values()).sorted(Comparator.comparingInt(RockType::getId)).toArray((type) ->
     {
@@ -23,9 +23,9 @@ public enum RockType implements StringRepresentable
     private final int id;
     private final String name;
     private final String fr_name;
-    private final MaterialColor color;
+    private final MapColor color;
 
-    private RockType(int id, String name, String fr_name, MaterialColor color)
+    private RockType(int id, String name, String fr_name, MapColor color)
     {
         this.id = id;
         this.name = name;
@@ -48,7 +48,7 @@ public enum RockType implements StringRepresentable
         return this.fr_name;
     }
 
-    public MaterialColor getColor()
+    public MapColor getColor()
     {
         return this.color;
     }

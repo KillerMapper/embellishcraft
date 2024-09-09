@@ -1,27 +1,23 @@
 package tv.mapper.embellishcraft.furniture.world.level.block;
 
+import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+import org.apache.commons.lang3.tuple.Pair;
+import tv.mapper.embellishcraft.core.ECConstants;
+import tv.mapper.embellishcraft.core.util.McWoods;
+import tv.mapper.embellishcraft.core.util.WoodsType;
+import tv.mapper.mapperbase.world.level.block.ToolTypes;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import org.apache.commons.lang3.tuple.Pair;
-
-import net.minecraft.world.item.DyeColor;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
-import tv.mapper.embellishcraft.EmbellishCraft;
-import tv.mapper.embellishcraft.core.ECConstants;
-import tv.mapper.embellishcraft.core.util.McWoods;
-import tv.mapper.embellishcraft.core.util.WoodsType;
-import tv.mapper.mapperbase.world.level.block.ToolTypes;
 
 public class InitFurnitureBlocks
 {
