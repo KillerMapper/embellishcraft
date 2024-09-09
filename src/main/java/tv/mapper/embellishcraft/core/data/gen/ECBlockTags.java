@@ -1,18 +1,9 @@
 package tv.mapper.embellishcraft.core.data.gen;
 
-import java.util.Arrays;
-
+import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.tags.BlockTags;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DoorBlock;
-import net.minecraft.world.level.block.FenceBlock;
-import net.minecraft.world.level.block.FenceGateBlock;
-import net.minecraft.world.level.block.PressurePlateBlock;
-import net.minecraft.world.level.block.SlabBlock;
-import net.minecraft.world.level.block.StairBlock;
-import net.minecraft.world.level.block.WallBlock;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
@@ -20,13 +11,7 @@ import tv.mapper.embellishcraft.building.world.level.block.InitBuildingBlocks;
 import tv.mapper.embellishcraft.building.world.level.block.SuspendedStairsBlock;
 import tv.mapper.embellishcraft.core.data.ECTags;
 import tv.mapper.embellishcraft.core.util.RockType;
-import tv.mapper.embellishcraft.furniture.world.level.block.ChairBlock;
-import tv.mapper.embellishcraft.furniture.world.level.block.CouchBlock;
-import tv.mapper.embellishcraft.furniture.world.level.block.CrateBlock;
-import tv.mapper.embellishcraft.furniture.world.level.block.CustomBedBlock;
-import tv.mapper.embellishcraft.furniture.world.level.block.InitFurnitureBlocks;
-import tv.mapper.embellishcraft.furniture.world.level.block.TableBlock;
-import tv.mapper.embellishcraft.furniture.world.level.block.TerraceTableBlock;
+import tv.mapper.embellishcraft.furniture.world.level.block.*;
 import tv.mapper.embellishcraft.industrial.world.level.block.InitIndustrialBlocks;
 import tv.mapper.embellishcraft.lights.world.level.block.InitLightBlocks;
 import tv.mapper.embellishcraft.rocks.world.level.block.InitRockBlocks;
@@ -34,11 +19,14 @@ import tv.mapper.mapperbase.data.gen.BaseBlockTags;
 import tv.mapper.mapperbase.world.level.block.CustomButtonBlock;
 import tv.mapper.mapperbase.world.level.block.CustomLadderBlock;
 
+import java.util.Arrays;
+import java.util.concurrent.CompletableFuture;
+
 public class ECBlockTags extends BaseBlockTags
 {
-    public ECBlockTags(DataGenerator generatorIn, String modid, ExistingFileHelper existingFileHelper)
+    public ECBlockTags(DataGenerator generatorIn, CompletableFuture<HolderLookup.Provider> generator, String modid, ExistingFileHelper existingFileHelper)
     {
-        super(generatorIn, modid, existingFileHelper);
+        super(generatorIn.getPackOutput(), generator, modid, existingFileHelper);
     }
 
     @Override
@@ -111,8 +99,9 @@ public class ECBlockTags extends BaseBlockTags
             this.tag(ECTags.Blocks.SUSPENDED_STAIRS).add(block);
         else if(block instanceof DoorBlock)
         {
-            if(block.defaultBlockState().getMaterial().equals(Material.WOOD))
-                this.tag(ECTags.Blocks.WOODEN_DOORS).add(block);
+            // @todo 1.21: Add wooden doors tag
+//            if(block.defaultBlockState().getMaterial().equals(Material.WOOD))
+//                this.tag(ECTags.Blocks.WOODEN_DOORS).add(block);
             this.tag(ECTags.Blocks.DOORS).add(block);
         }
         else if(block instanceof CrateBlock)
