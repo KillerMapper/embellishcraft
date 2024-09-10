@@ -15,8 +15,7 @@ public class BuildingStoneCutter extends ECStonecutterRecipes
     }
 
     @Override
-    protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer)
-    {
+    protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
         // Other bricks
         basicRecipes(consumer, InitBuildingBlocks.DARK_BRICKS.get(), InitBuildingBlocks.DARK_BRICKS_SLAB.get(), InitBuildingBlocks.DARK_BRICKS_STAIRS.get(), InitBuildingBlocks.DARK_BRICKS_WALL.get(), InitBuildingBlocks.DARK_BRICKS_PRESSURE_PLATE.get());
         basicRecipes(consumer, InitBuildingBlocks.DARK_LARGE_BRICKS.get(), InitBuildingBlocks.DARK_LARGE_BRICKS_SLAB.get(), InitBuildingBlocks.DARK_LARGE_BRICKS_STAIRS.get(), InitBuildingBlocks.DARK_LARGE_BRICKS_WALL.get(), InitBuildingBlocks.DARK_LARGE_BRICKS_PRESSURE_PLATE.get());

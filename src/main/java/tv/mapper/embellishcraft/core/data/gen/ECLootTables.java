@@ -31,7 +31,7 @@ public class ECLootTables extends BaseLootTableProvider
 {
     public ECLootTables(DataGenerator dataGeneratorIn)
     {
-        super(dataGeneratorIn);
+        super(ECConstants.MODID);
     }
 
     public void addStandardTable(Block block)

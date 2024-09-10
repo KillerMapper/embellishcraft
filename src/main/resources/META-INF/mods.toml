@@ -23,13 +23,13 @@ description='''EmbellishCraft is a mod that adds various decorative elements to 
 [[dependencies.embellishcraft]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2,1.20)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.embellishcraft]]
     modId="mapperbase"
     mandatory=true
-    versionRange="[1.19.2-5.0,)"
+    versionRange="[1.20.1-6.0,)"
     ordering="AFTER"
     side="BOTH"

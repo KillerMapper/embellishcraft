@@ -14,7 +14,7 @@ public class ECLang extends LanguageProvider
 
     public ECLang(DataGenerator gen, String modid, String locale)
     {
-        super(gen, modid, locale);
+        super(gen.getPackOutput(), modid, locale);
         lang = locale;
     }
 

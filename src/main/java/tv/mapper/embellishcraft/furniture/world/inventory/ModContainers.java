@@ -1,5 +1,6 @@
 package tv.mapper.embellishcraft.furniture.world.inventory;
 
+import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -17,6 +18,6 @@ public class ModContainers
     // public static final RegistryObject<MenuType<VerticalChestContainer>> VERTICAL_9X5 = CONTAINERS.register("vertical_9x5", () -> new MenuType<>(VerticalChestContainer::createGeneric9X5));
     // public static final RegistryObject<MenuType<VerticalChestContainer>> VERTICAL_9X6 = CONTAINERS.register("vertical_9x6", () -> new MenuType<>(VerticalChestContainer::createGeneric9X6));
 
-    public static final RegistryObject<MenuType<CrateContainer>> CRATE_4X4 = CONTAINERS.register("crate_4x4", () -> new MenuType<>(CrateContainer::createCrate4X4));
-    public static final RegistryObject<MenuType<CrateContainer>> CRATE_4X8 = CONTAINERS.register("crate_4x8", () -> new MenuType<>(CrateContainer::createCrate4X8));
+    public static final RegistryObject<MenuType<CrateContainer>> CRATE_4X4 = CONTAINERS.register("crate_4x4", () -> new MenuType<>(CrateContainer::createCrate4X4, FeatureFlagSet.of()));
+    public static final RegistryObject<MenuType<CrateContainer>> CRATE_4X8 = CONTAINERS.register("crate_4x8", () -> new MenuType<>(CrateContainer::createCrate4X8, FeatureFlagSet.of()));
 }

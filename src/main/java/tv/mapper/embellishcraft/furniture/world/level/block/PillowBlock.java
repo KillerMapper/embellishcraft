@@ -97,7 +97,7 @@ public class PillowBlock extends BedBlock
             if(!canSetSpawn(worldIn))
             {
                 worldIn.removeBlock(pos, false);
-                worldIn.explode((Entity)null, DamageSource.badRespawnPointExplosion(), (ExplosionDamageCalculator)null, (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, 5.0F, true, Explosion.BlockInteraction.DESTROY);
+                worldIn.explode((Entity)null, player.damageSources().badRespawnPointExplosion(player.position()), (ExplosionDamageCalculator)null, (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, 5.0F, true, Level.ExplosionInteraction.TNT);
                 return InteractionResult.SUCCESS;
             }
             else if(state.getValue(OCCUPIED))

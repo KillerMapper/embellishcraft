@@ -140,7 +140,7 @@ public class FurnitureBlockStates extends ECBlockStates
 
         for(Direction dir : Direction.Plane.HORIZONTAL)
         {
-            for(ChestType type : ChestType.BY_ID)
+            for(ChestType type : ChestType.values())
             {
                 model = type == ChestType.SINGLE ? mod_id + ":block/" + name : type == ChestType.LEFT ? mod_id + ":block/" + name + "_left" : mod_id + ":block/" + name + "_right";
 

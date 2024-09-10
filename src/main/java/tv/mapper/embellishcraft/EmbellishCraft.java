@@ -1,5 +1,7 @@
 package tv.mapper.embellishcraft;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModList;
@@ -11,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLDedicatedServerSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
+import net.minecraftforge.registries.DeferredRegister;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import tv.mapper.embellishcraft.building.world.item.InitBuildingItems;
@@ -19,6 +22,7 @@ import tv.mapper.embellishcraft.core.ECConstants;
 import tv.mapper.embellishcraft.core.proxy.ClientProxy;
 import tv.mapper.embellishcraft.core.proxy.IProxy;
 import tv.mapper.embellishcraft.core.proxy.ServerProxy;
+import tv.mapper.embellishcraft.core.world.item.ModItemGroups;
 import tv.mapper.embellishcraft.furniture.world.entity.InitFurnitureEntities;
 import tv.mapper.embellishcraft.furniture.world.inventory.ModContainers;
 import tv.mapper.embellishcraft.furniture.world.item.InitFurnitureItems;
@@ -59,6 +63,7 @@ public class EmbellishCraft
         InitFurnitureEntities.init();
 
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItemGroups.init(modEventBus);
 
         ModContainers.CONTAINERS.register(modEventBus);
 

@@ -155,26 +155,26 @@ public class CrateBlock extends BaseEntityBlock implements ToolManager
     }
 
     @SuppressWarnings("deprecation")
-    public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder)
-    {
-        BlockEntity tileentity = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
-        if(tileentity instanceof CrateTileEntity)
-        {
-            CrateTileEntity crate = (CrateTileEntity)tileentity;
-            builder = builder.withDynamicDrop(CONTENTS, (p_220168_1_, p_220168_2_) ->
-            {
-                for(int i = 0; i < crate.getContainerSize(); ++i)
-                {
-                    p_220168_2_.accept(crate.getItem(i));
-                }
+    // @todo 1.20
+//    public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder)
+//    {
+//        BlockEntity tileentity = builder.getOptionalParameter(LootContextParams.BLOCK_ENTITY);
+//        if(tileentity instanceof CrateTileEntity)
+//        {
+//            CrateTileEntity crate = (CrateTileEntity)tileentity;
+//            builder = builder.withDynamicDrop(CONTENTS, (p_220168_1_, p_220168_2_) ->
+//            {
+//                for(int i = 0; i < crate.getContainerSize(); ++i)
+//                {
+//                    p_220168_2_.accept(crate.getItem(i));
+//                }
+//
+//            });
+//        }
+//
+//        return super.getDrops(state, builder);
+//    }
 
-            });
-        }
-
-        return super.getDrops(state, builder);
-    }
-
-    @SuppressWarnings("deprecation")
     @Override
     public void onRemove(BlockState state, Level worldIn, BlockPos pos, BlockState newState, boolean isMoving)
     {

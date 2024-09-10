@@ -99,7 +99,7 @@ public class ECBlockTags extends BaseBlockTags
             this.tag(ECTags.Blocks.SUSPENDED_STAIRS).add(block);
         else if(block instanceof DoorBlock)
         {
-            // @todo 1.21: Add wooden doors tag
+            // @todo 1.20: Add wooden doors tag
 //            if(block.defaultBlockState().getMaterial().equals(Material.WOOD))
 //                this.tag(ECTags.Blocks.WOODEN_DOORS).add(block);
             this.tag(ECTags.Blocks.DOORS).add(block);

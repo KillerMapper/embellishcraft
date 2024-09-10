@@ -58,13 +58,13 @@ public class ECGenerators
         generator.addProvider(true, new RockStoneCutter(generator));
         generator.addProvider(true, new BuildingStoneCutter(generator));
 
-        // Loot Tables
-        generator.addProvider(true, new ECLootTables(generator));
-        generator.addProvider(true, new RockLootTables(generator));
-        generator.addProvider(true, new IndustrialLootTables(generator));
-        generator.addProvider(true, new BuildingLootTables(generator));
-        generator.addProvider(true, new FurnitureLootTables(generator));
-        generator.addProvider(true, new LightLootTables(generator));
+        // Loot Tables // @todo 1.20
+//        generator.addProvider(true, new ECLootTables(generator));
+//        generator.addProvider(true, new RockLootTables(generator));
+//        generator.addProvider(true, new IndustrialLootTables(generator));
+//        generator.addProvider(true, new BuildingLootTables(generator));
+//        generator.addProvider(true, new FurnitureLootTables(generator));
+//        generator.addProvider(true, new LightLootTables(generator));
 
         // Block States
         generator.addProvider(true, new ECBlockStates(generator, ECConstants.MODID, existingFileHelper));
@@ -90,10 +90,10 @@ public class ECGenerators
         generator.addProvider(true, new FurnitureItemModels(generator, ECConstants.MODID, existingFileHelper));
         generator.addProvider(true, new LightItemModels(generator, ECConstants.MODID, existingFileHelper));
 
-        ECBlockTags blockTags = new ECBlockTags(generator, ECConstants.MODID, existingFileHelper);
+        ECBlockTags blockTags = new ECBlockTags(generator, event.getLookupProvider(), ECConstants.MODID, existingFileHelper);
 
         generator.addProvider(true, blockTags);
-        generator.addProvider(true, new ECItemTags(generator, blockTags, existingFileHelper));
+        generator.addProvider(true, new ECItemTags(generator, event.getLookupProvider(), blockTags.contentsGetter(), existingFileHelper));
 
         // Lang
         generator.addProvider(true, new ECLang(generator, ECConstants.MODID, "en_us"));

@@ -43,12 +43,12 @@ public class SitEntity extends Entity
     public void tick()
     {
         super.tick();
-        if(!this.level.isClientSide)
+        if(!this.level().isClientSide)
         {
-            if(this.getPassengers().isEmpty() || !(this.level.getBlockState(this.blockPosition()).getBlock() instanceof SitBlock))
+            if(this.getPassengers().isEmpty() || !(this.level().getBlockState(this.blockPosition()).getBlock() instanceof SitBlock))
             {
                 this.remove(RemovalReason.DISCARDED);
-                this.level.updateNeighbourForOutputSignal(blockPosition(), this.level.getBlockState(blockPosition()).getBlock());
+                this.level().updateNeighbourForOutputSignal(blockPosition(), this.level().getBlockState(blockPosition()).getBlock());
             }
         }
     }
@@ -86,11 +86,12 @@ public class SitEntity extends Entity
     protected void addAdditionalSaveData(CompoundTag pCompound)
     {}
 
-    @Override
-    public Packet<?> getAddEntityPacket()
-    {
-        return NetworkHooks.getEntitySpawningPacket(this);
-    }
+    // @todo 1.20
+//    @Override
+//    public Packet<?> getAddEntityPacket()
+//    {
+//        return NetworkHooks.getEntitySpawningPacket(this);
+//    }
 
     @Override
     protected void addPassenger(Entity entity)
@@ -100,9 +101,8 @@ public class SitEntity extends Entity
     }
 
     @Override
-    public void positionRider(Entity entity)
-    {
-        super.positionRider(entity);
+    protected void positionRider(Entity entity, MoveFunction pCallback) {
+        super.positionRider(entity, pCallback);
         this.clampYaw(entity);
     }
 
